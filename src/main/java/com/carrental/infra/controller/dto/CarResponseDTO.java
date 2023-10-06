@@ -1,4 +1,4 @@
-package com.carrental.domain.model;
+package com.carrental.infra.controller.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,7 +8,7 @@ import java.time.LocalDate;
 
 @Getter
 @AllArgsConstructor
-public class Car {
+public class CarResponseDTO {
 
     private int id;
     private String brand;
