@@ -13,6 +13,7 @@ public class CarResponseDTO {
     private int id;
     private String brand;
     private String name;
+    private String type;
     private String imageUrl;
     private boolean highlight;
     private String description;

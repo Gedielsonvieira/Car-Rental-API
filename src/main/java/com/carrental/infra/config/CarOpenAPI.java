@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class carOpenAPI{
+public class CarOpenAPI {
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()

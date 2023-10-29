@@ -13,6 +13,7 @@ public class CarRequestDTO {
     private Integer id;
     private String brand;
     private String name;
+    private String type;
     private String imageUrl;
     private Boolean highlight;
     private String description;

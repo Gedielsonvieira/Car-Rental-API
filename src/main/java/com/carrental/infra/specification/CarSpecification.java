@@ -34,6 +34,10 @@ public class CarSpecification implements Specification<CarEntity> {
             criteria.add(criteriaBuilder.equal(root.get("name"), carRequestDTO.getName()));
         }
 
+        if (carRequestDTO.getType() != null) {
+            criteria.add(criteriaBuilder.equal(root.get("type"), carRequestDTO.getType()));
+        }
+
         if (carRequestDTO.getImageUrl() != null) {
             criteria.add(criteriaBuilder.equal(root.get("imageUrl"), carRequestDTO.getImageUrl()));
         }
