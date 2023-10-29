@@ -24,6 +24,8 @@ public class CarEntity {
     private String brand;
     @Column(name = "nome")
     private String name;
+    @Column(name = "tipo")
+    private String type;
     @Column(name = "imagem_url")
     private String imageUrl;
     @Column(name = "destaque")
@@ -56,6 +58,7 @@ public class CarEntity {
                 id,
                 brand,
                 name,
+                type,
                 imageUrl,
                 highlight,
                 description,

@@ -18,6 +18,8 @@ public class NewCarDTO {
     private String brand;
     @NotBlank(message = "Fill in the name field")
     private String name;
+    @NotBlank(message = "Fill in the type field")
+    private String type;
     @NotBlank(message = "Fill in the imageUrl field")
     private String imageUrl;
     @NotNull
